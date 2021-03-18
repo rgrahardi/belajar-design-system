@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  width: 20%;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .logo a span {
+  color: #5a5a5a;
+}
+
+.header .menu {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.header .menu a:hover {
+  background: black;
+  color: white;
+}
+
+.header .socialmedia {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .socialmedia img {
+  width: 24px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+.header .socialmedia img:hover {
+  opacity: 1;
+}
+
+.hero {
+  margin: 10% 0 0;
+  padding: 5% 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #b1e2e2;
+}
+
+.hero-desc {
+  width: 60%;
+  padding: 5%;
+}
+
+.hero-desc h2 {
+  font-size: 3vw;
+}
+
+.hero-desc p {
+  font-size: 25px;
+  line-height: 43px;
+}
+
+.hero-desc_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-desc_btn a {
+  padding: 20px;
+  border: 2px solid black;
+  width: 120px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.hero-desc_btn a.signup {
+  background: black;
+  color: white;
+}
+
+.hero-image {
+  width: 35%;
+  margin: -100px 0 0;
+}
+
+.hero-image img {
+  width: 100%;
+  position: relative;
+  top: 6px;
+}
+
+.partner {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partner .partner-item img {
+  height: 50px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.mission {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mission-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+}
+
+.mission-desc h2 {
+  font-size: 4vw;
+}
+
+.mission-detail {
+  width: 45%;
+}
+
+.mission-detail p {
+  font-size: 18px;
+  line-height: 40px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.mission-detail a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mission-detail a img {
+  margin-left: 10px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.service {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-big {
+  width: 30%;
+  padding: 20px;
+  background: black;
+  color: white;
+  margin-top: -150px;
+}
+
+.service-item {
+  width: 20%;
+  padding: 10px;
+}
+
+.service-item p {
+  color: #818181;
+}
+/*# sourceMappingURL=style.css.map */
